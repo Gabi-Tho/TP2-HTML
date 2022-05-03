@@ -1,0 +1,41 @@
+body{
+    background:rgba(248, 46, 255, 0.363);
+    font-family: monospace;
+    color: rgb(105, 121, 113);
+}
+header{
+    text-align: center;
+    color: rgb(105, 121, 113);
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    letter-spacing: 2px;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    position:fixed;
+    padding: 10px;
+
+}
+nav{
+    text-align:center;
+    color: rgb(105, 121, 113);
+    background-color:rgba(124, 119, 124, 0.329);
+    word-spacing: 10px;
+}
+.menu{
+    color:rgb(255, 255, 255);
+    padding: 10px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+table{
+    border: 1px solid;
+    width: 80%;
+}
+.tableheader{
+    text-align: left;
+    background-color:rgba(105, 121, 113, 0.356);
+    color:rgb(255, 255, 255);
+}
