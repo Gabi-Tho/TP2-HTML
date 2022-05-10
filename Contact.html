@@ -7,46 +7,40 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name= "author" content= "Gabriela Thomas">
     <title>Contact</title>
-    <style>
-        input:not([type=checkbox]), [type=checkbox], select, textarea{ 
-            display: block;
-            margin: 5px;
-        }
-    </style>
 </head>
 <body>
-    <nav>
-        <a href="Index.html" class="menu">Home</a>
-        <a href="Career.html" class="menu">Career</a>
-        <a href="Education.html" class="menu">Education</a>
-        <a href="Projects.html" class="menu">Projects</a>
-        <a href="Contact.html" class="menu">Contact</a>
-        <a href="Validation.html" class="menu">Validation</a>
-    </nav>
-    <br>
-    <h2>for booking:</h2>
-    <p>
-        gabitomemusic@gmail.com
-    </p>
-    <main>
-        <form action="/action_page.php" method="get">
-            <br>
-            <br>
-            <label for="lastName">last name:</label>
-            <input type="text" id="lastName" name="inputLastName" >
-            <label for="name"> name:</label>
-            <input type="text" id="name" name="inputName">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="inputEmail">
-            <br>
-            <br>
-            <br>
-            <label>
+    <div class="container">
+        <header>
+        <nav class="navbar">
+            <a href="Index.html" class="menu">Home</a>
+            <a href="Career.html" class="menu">Career</a>
+            <a href="experience.html" class="menu">Experience</a>
+            <a href="Projects.html" class="menu">Projects</a>
+            <a href="Contact.html" class="menu">Contact</a>
+            <a href="Validation.html" class="menu">Validation</a>
+        </nav>
+        </header>
+        <main class="center">
+            <div class = "contact-title">
+                <h2>for booking:</h2>
+                <p>gabitomemusic@gmail.com</p>
+            </div>
+            <form action="/action_page.php" method="get">
+                <label for="lastName">last name:</label>
+                <input type="text" id="lastName" name="inputLastName" >
+                <label for="name"> name:</label>
+                <input type="text" id="name" name="inputName">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="inputEmail">
+                <label>message
                 <textarea name="message" id="message" cols="50" rows="10"></textarea>
-            </label>
-            <input type="submit" value="save">
-        </form>
-    </main>
-    <footer id="footer">All rights reserved</footer>    
-</body>
+                </label>
+                <input type="submit" value="save">
+            </form>
+        </main>
+        <footer>All rights reserved</footer>
+        </div>
+    </body>
 </html>
+
+

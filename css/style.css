@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html, body{
-    background: rgb(175, 122, 190);;
+    background: rgb(175, 122, 190);
     font-family: 'Press Start 2P', cursive;
     color: rgb(105, 121, 113);
     margin: 0;
@@ -105,6 +105,31 @@ nav a:hover, .dropdown:hover{
     line-height: 25px;
     
 }
+.item-1-experience{
+    display: flex;
+}
+.item-2-experience{
+    display: flex;
+    color: #000;
+    margin: 80px 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    line-height: 25px;
+    
+}
+.item-3-experience{
+    display: flex;
+    color: #000;
+    margin: 80px 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    line-height: 25px;
+    
+}
 img{
     object-fit:cover;
     width: 100%;
@@ -136,3 +161,39 @@ table{
     background-color:rgba(105, 121, 113, 0.356);
     color:rgb(255, 255, 255);
 }
+form{
+    display: inline-block;
+    text-align: center;
+    background: #777;
+    color: white;
+    width: 500px;
+    height:500px; 
+}
+input[type=text]{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 10px;
+    border-bottom: rgb(175, 122, 190);
+    line-height: 10px;
+}
+input{
+    width: 80%;
+    margin: 20px;
+}
+.contact-title{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+label{
+    color: rgb(253, 250, 250);
+    padding: 20px;
+}
+
+
+
+
