@@ -29,6 +29,11 @@ html, body{
     padding: 6px 6px;
     flex: 600px;
 }
+.responsive-formation { 
+    padding: 6px 6px;
+    flex: 25%;
+}
+
 .responsive-Wide-Box { 
     padding: 6px 6px;
     flex: 300px;
@@ -41,6 +46,10 @@ div.gallery:hover{
 }
 div.gallery img {
     width: 100%;
+    height: auto;
+}
+.gallery-formation{
+    width: 50%;
     height: auto;
 }
 div.desc {
@@ -105,31 +114,6 @@ nav a:hover, .dropdown:hover{
     line-height: 25px;
     
 }
-.item-1-experience{
-    display: flex;
-}
-.item-2-experience{
-    display: flex;
-    color: #000;
-    margin: 80px 30px;
-    font-family: 'Press Start 2P', cursive;
-    font-weight: bold;
-    font-size: medium;
-    text-align: left;
-    line-height: 25px;
-    
-}
-.item-3-experience{
-    display: flex;
-    color: #000;
-    margin: 80px 30px;
-    font-family: 'Press Start 2P', cursive;
-    font-weight: bold;
-    font-size: medium;
-    text-align: left;
-    line-height: 25px;
-    
-}
 img{
     object-fit:cover;
     width: 100%;
@@ -168,6 +152,7 @@ form{
     color: white;
     width: 500px;
     height:500px; 
+    margin-bottom: 80px;
 }
 input[type=text]{
     display: inline-block;
