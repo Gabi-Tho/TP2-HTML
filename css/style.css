@@ -16,7 +16,9 @@ html, body{
     position: relative;
     min-height: 100%;
     margin-bottom: 20px;
+    width: 100%;
 }
+
 .container-gallery{
     display: flex;
     flex-flow: row wrap;
@@ -24,6 +26,7 @@ html, body{
     min-height: 100%;
     position: relative;
     margin-bottom: 40px;
+
 }
 .responsive { 
     padding: 6px 6px;
@@ -114,6 +117,18 @@ nav a:hover, .dropdown:hover{
     line-height: 25px;
     
 }
+.box-exp{
+    display: flex;
+    color: #000;
+    margin: 80px 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    line-height: 25px;
+    background-color: whitesmoke;
+    
+}
 img{
     object-fit:cover;
     width: 100%;
@@ -179,6 +194,8 @@ label{
     padding: 20px;
 }
 
-
-
-
+@media screen and (min-width:720px) {
+    .aside{
+        flex: 1;
+    }
+}  
