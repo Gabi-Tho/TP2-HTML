@@ -208,9 +208,14 @@ form{
     height:500px; 
     margin-bottom: 80px;
 }
+#message{
+    display: inline-block;
+    text-align: center;
+    background: rgb(249, 247, 247);
+    color: white;
+}
 input[type=text]{
     display: inline-block;
-    padding: 10px;
     margin: 20px;
     margin-bottom: 10px;
     border-bottom: rgb(175, 122, 190);
