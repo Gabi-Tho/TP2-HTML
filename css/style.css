@@ -43,6 +43,12 @@ html, body{
     flex-basis: 100%;
     min-height: 200px;
 }
+.responsive-half-box { 
+    padding: 6px 6px;
+    flex: 300px;
+    flex-basis: 50%;
+    min-height: 200px;
+}
 
 div.gallery:hover{
     border: 1px solid #777;
