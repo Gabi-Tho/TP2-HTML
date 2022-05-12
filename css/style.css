@@ -18,6 +18,12 @@ html, body{
     margin-bottom: 20px;
     width: 100%;
 }
+.p{
+    padding: 10px;
+    margin-top: 30%;
+    text-align: center;
+
+}
 
 .container-gallery{
     display: flex;
@@ -120,13 +126,29 @@ nav a:hover, .dropdown:hover{
 }
 .item-2{
     display: flex;
-    color: #000;
+    color: rgb(255, 255, 255);
     margin: 80px 30px;
     font-family: 'Press Start 2P', cursive;
     font-weight: bold;
     font-size: medium;
-    text-align: left;
+    text-align: center;
     line-height: 25px;
+    letter-spacing: 5px;
+    
+}
+.item-2:hover{
+    display: flex;
+    color: rgb(72, 229, 5);
+    text-shadow: 10px 10px 10px rgb(188, 229, 5) ;
+    text-shadow: 5px 5px 5px rgb(185, 210, 74) ;
+    transition: 500ms ease;
+    margin: 80px 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 5px;
     
 }
 .grid{
