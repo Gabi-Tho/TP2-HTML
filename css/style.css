@@ -238,8 +238,40 @@ label{
     padding: 20px;
 }
 
-@media screen and (min-width:720px) {
+@media screen and (max-width:720px) {
     .aside{
-        flex: 1;
+        grid-column: span 6;
+        grid-row: span 1;
+    background-color: #777;
+    color: rgb(250, 248, 248);
     }
+    .aside-2{
+        grid-column: span 6;
+        grid-row: span 1;
+    background-color: rgb(129, 199, 121);
+    color: rgb(250, 248, 248);
+    }
+    .aside-3{
+        grid-column: span 6;
+        grid-row: span 1;
+    background-color: rgb(227, 167, 48);
+    color: rgb(255, 255, 255);
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3,1fr);
+        margin: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    nav a {
+        text-decoration: none;
+        display: block;
+        float: left;
+        font-size: small;
+        justify-content: center;
+    }
+
 }  
+
