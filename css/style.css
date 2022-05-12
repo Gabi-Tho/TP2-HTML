@@ -24,8 +24,7 @@ html, body{
     text-align: center;
 
 }
-
-.container-gallery{
+.container-gallery{ /* container pour les images pour page validation */
     display: flex;
     flex-flow: row wrap;
     margin: 0;
@@ -121,11 +120,7 @@ nav a:hover, .dropdown:hover{
     background-color: white;
     color: #1b1b1b;
 }
-.item-1{
-    display: flex;
-}
-.item-2{
-    display: flex;
+.item-2{ /* text box pour le page index */
     color: rgb(255, 255, 255);
     margin: 80px 30px;
     font-family: 'Press Start 2P', cursive;
@@ -136,7 +131,7 @@ nav a:hover, .dropdown:hover{
     letter-spacing: 5px;
     
 }
-.item-2:hover{
+.item-2:hover{ /*beau decoration du text index */
     display: flex;
     color: rgb(72, 229, 5);
     text-shadow: 10px 10px 10px rgb(188, 229, 5) ;
@@ -151,13 +146,14 @@ nav a:hover, .dropdown:hover{
     letter-spacing: 5px;
     
 }
-.grid{
+.grid{ /* grid pour page experience */
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4,1fr);
     margin: 10px;
     text-align: center;
     justify-content: center;
+    padding-bottom: 100px; /* le fix que marco a suggerer :) */
 }
 .intro{
     grid-column: 1/2;
@@ -168,22 +164,20 @@ nav a:hover, .dropdown:hover{
     padding: 20px;
     
 }
-.box-1{
+.box-1{ /* box pour grid */
     display:grid;
     grid-column: 2/6 ;
     grid-row: span 2;
-    grid-area: "box-1";
     background-color: rgb(129, 199, 121);
     color: white;
     gap: 10px;
     margin: 20px;
     padding: 20px;
 }
-.box-2{
+.box-2{ /* box pour grid */
     display:grid;
     grid-column: 2/6;
     grid-row:span 2;
-    grid-area: "box-2";
     background-color: rgb(227, 167, 48);
     color: white;
     gap: 10px;
@@ -212,15 +206,6 @@ footer{
     text-decoration: none;
     letter-spacing: 5px;
 }
-table{
-    border: 1px solid;
-    width: 80%;
-}
-.tableheader{
-    text-align: left;
-    background-color:rgba(105, 121, 113, 0.356);
-    color:rgb(255, 255, 255);
-}
 form{
     display: inline-block;
     text-align: center;
@@ -230,7 +215,7 @@ form{
     height:500px; 
     margin-bottom: 80px;
 }
-#message{
+#message{ /* message du formulaire */
     display: inline-block;
     text-align: center;
     background: rgb(249, 247, 247);
@@ -252,7 +237,7 @@ input{
     color: white;
     padding: 20px;
 }
-.center{
+.center{ /* utliser pour centrer le text en haut du formulaire */
     text-align: center;
 }
 label{
@@ -261,19 +246,19 @@ label{
 }
 
 @media screen and (max-width:720px) {
-    .aside{
+    .aside{ /* transforme les objets de mon grid du page experience */
         grid-column: span 6;
         grid-row: span 1;
     background-color: #777;
     color: rgb(250, 248, 248);
     }
-    .aside-2{
+    .aside-2{ /* transforme les objets de mon grid du page experience */
         grid-column: span 6;
         grid-row: span 1;
     background-color: rgb(129, 199, 121);
     color: rgb(250, 248, 248);
     }
-    .aside-3{
+    .aside-3{ /* transforme les objets de mon grid du page experience */
         grid-column: span 6;
         grid-row: span 1;
     background-color: rgb(227, 167, 48);
